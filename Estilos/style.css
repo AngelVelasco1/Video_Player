@@ -1,7 +1,7 @@
 /* Importar Nueva hoja de estilos solo para los botones */
 @import "./buttons.css";
 body {
-  background-color: #26b4bc;
+  background-color: #2dc9d1;
   font-family: Arial, Helvetica, sans-serif;
 }
 .player {
