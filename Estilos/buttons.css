@@ -1,0 +1,27 @@
+/* Usando un punto mas el nombre de la clase se puede modificar todos los elementos de esa clase */
+.button {
+  inline-size: 40px;
+  block-size: 40px;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer
+}
+/* Existen pseudoclases que permiten hacer distintas animaciones, esto se logra con la clase incial + dos puntos*/
+.button:active {
+  transform: scale(.8);
+}
+/*Usando el # podemos modificar los atributos de solo un elemento usando su id*/
+#backward {
+  background-image: url(../images/-10.svg);
+}
+#pause {
+  background-image: url(../images/pause.svg);
+}
+#play {
+  background-image: url(../images/play.svg);
+}
+#forward {
+  background-image: url(../images/+10.svg); 
+}
