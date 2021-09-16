@@ -16,7 +16,7 @@ body {
   object-fit: cover;
 } 
 .wrapper {
-  max-inline-size: 900px;
+  max-inline-size: 950px;
   margin: auto;
 }
 /* Titulo superior del Video */
@@ -62,4 +62,25 @@ body {
 }
 .player:hover .player-overlay{
   opacity: 100%;
+}
+.elipse {
+  position: absolute;
+  width: 250.62px;
+  height: 250.91px;
+  left: 100px;
+  top: 468px;
+  border: 28.642px solid rgba(0, 0, 0, 0.20);
+  box-sizing: border-box;
+  border-radius: 50%;
+  z-index: 4;
+}
+.elipse_2 {
+  position: absolute;
+  width: 300.62px;
+  height: 300.91px;
+  left: 1167px;
+  top: 208px;
+  border: 28.642px solid rgba(0, 0, 0, 0.20);
+  box-sizing: border-box;
+  border-radius: 50%;
 }

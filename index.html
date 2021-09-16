@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Player</title>
+    <link rel="stylesheet" href="./Estilos/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="player">
+        
+        <video
+        src="./videos/lofi.mp4"
+        id="video"
+        poster="./images/poster.jpg"
+        width="900"
+        preload="auto"
+        ></video>
+        
+        <div class="player-overlay">
+          <h2 class="player-title">Musica Para Programar</h2>
+          <div class="player-buttons">
+            <button class="button" aria-label="Retroceder 10 seg" title="Retroceder 10 seg" id="backward"
+            ></button>
+            <button
+              class="button"
+              hidden
+              aria-label="Pausar"
+              title="Pause-Pausar"
+              id="pause"
+            ></button>
+            <button
+              class="button"
+              aria-label="Reproducir"
+              title="Play-Reproducir"
+              id="play"
+            ></button>
+            <button
+              class="button"
+              aria-label="Avanzar 10 seg"
+              title="Avanzar 10 seg"
+              id="forward"
+            ></button>
+          </div>
+
+          <div class="player-progress">
+            <input id="progress" type="range" min="0" value="0" step=".10" />
+          </div>
+        </div>
+      </div>
+      <div class= "elipse"></div>
+      <div class= "elipse_2"></div>
+    </div>
+    <script src="./interaccion.js"></script>
+  </body>
+</html>
